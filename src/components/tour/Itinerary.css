@@ -1,0 +1,87 @@
+.itinerary-section {
+  padding: 40px 0;
+  background-color: #f9f9f9;
+  margin: 40px 0;
+  border-radius: 8px;
+}
+
+.itinerary-section h2 {
+  font-size: 32px;
+  margin-bottom: 30px;
+  color: #333;
+}
+
+.itinerary-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+}
+
+.itinerary-day {
+  background-color: white;
+  border-left: 5px solid #007bff;
+  padding: 20px;
+  border-radius: 4px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+  transition: all 0.3s ease;
+}
+
+.itinerary-day:hover {
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12);
+  transform: translateY(-2px);
+}
+
+.day-header {
+  margin-bottom: 15px;
+}
+
+.day-number {
+  display: inline-block;
+  background-color: #007bff;
+  color: white;
+  padding: 5px 12px;
+  border-radius: 20px;
+  font-size: 12px;
+  font-weight: 600;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+
+.day-title {
+  font-size: 18px;
+  color: #333;
+  margin: 10px 0 0 0;
+}
+
+.activities-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.activity-item {
+  padding: 8px 0;
+  padding-left: 20px;
+  position: relative;
+  color: #666;
+  line-height: 1.6;
+  font-size: 14px;
+}
+
+.activity-item:before {
+  content: "•";
+  position: absolute;
+  left: 0;
+  color: #007bff;
+  font-weight: bold;
+}
+
+@media (max-width: 768px) {
+  .itinerary-container {
+    grid-template-columns: 1fr;
+  }
+
+  .itinerary-section h2 {
+    font-size: 24px;
+  }
+}

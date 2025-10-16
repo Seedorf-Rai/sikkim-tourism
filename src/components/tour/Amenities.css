@@ -1,0 +1,79 @@
+.amenities-section {
+  padding: 40px 0;
+}
+
+.amenities-section h2 {
+  font-size: 32px;
+  margin-bottom: 30px;
+  color: #333;
+}
+
+.amenities-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 30px;
+}
+
+.amenity-group {
+  background-color: #f9f9f9;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.group-title {
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 15px;
+  margin-top: 0;
+}
+
+.included-title {
+  color: #28a745;
+}
+
+.excluded-title {
+  color: #dc3545;
+}
+
+.amenity-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.amenity-item {
+  display: flex;
+  align-items: center;
+  padding: 10px 0;
+  border-bottom: 1px solid #e0e0e0;
+  font-size: 14px;
+  color: #555;
+}
+
+.amenity-item:last-child {
+  border-bottom: none;
+}
+
+.amenity-item.included .checkmark {
+  color: #28a745;
+  font-weight: bold;
+  margin-right: 12px;
+  font-size: 18px;
+}
+
+.amenity-item.excluded .cross {
+  color: #dc3545;
+  font-weight: bold;
+  margin-right: 12px;
+  font-size: 18px;
+}
+
+@media (max-width: 768px) {
+  .amenities-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .amenities-section h2 {
+    font-size: 24px;
+  }
+}
