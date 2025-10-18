@@ -1,0 +1,10 @@
+export { default as Homepage } from "./Homepage";
+export { default as HomeHero } from "./HomeHero";
+export { default as Destinations } from "./Destinations";
+export { default as Activities } from "./Activities";
+export { default as Accommodations } from "./Accommodations";
+export { default as Culture } from "./Culture";
+export { default as Testimonials } from "./Testimonials";
+export { default as TravelTips } from "./TravelTips";
+export { default as Gallery } from "./Gallery";
+export { default as Footer } from "./Footer";

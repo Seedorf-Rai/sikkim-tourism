@@ -1,0 +1,140 @@
+.travel-tips-section {
+  padding: var(--spacing-3xl) var(--spacing-xl);
+  background: linear-gradient(180deg, #ffffff 0%, #dbeafe 100%);
+}
+
+.tips-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: var(--spacing-xl);
+  margin-bottom: var(--spacing-3xl);
+}
+
+.tip-card {
+  background: white;
+  border-radius: var(--radius-xl);
+  padding: var(--spacing-xl);
+  box-shadow: var(--shadow-md);
+  transition: all var(--transition-base);
+  border: 1px solid var(--border-color);
+  text-align: center;
+}
+
+.tip-card:hover {
+  transform: translateY(-8px);
+  box-shadow: var(--shadow-2xl);
+  border-color: var(--primary-color);
+}
+
+.tip-icon {
+  font-size: 3rem;
+  margin-bottom: var(--spacing-md);
+  display: block;
+}
+
+.tip-title {
+  font-size: 1.125rem;
+  font-weight: 700;
+  color: var(--text-primary);
+  margin-bottom: var(--spacing-sm);
+}
+
+.tip-description {
+  color: var(--text-secondary);
+  line-height: 1.6;
+  font-size: 0.9375rem;
+}
+
+.additional-info {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: var(--spacing-2xl);
+  margin-top: var(--spacing-3xl);
+}
+
+.emergency-contacts,
+.local-etiquette {
+  background: white;
+  border-radius: var(--radius-xl);
+  padding: var(--spacing-2xl);
+  box-shadow: var(--shadow-lg);
+  border: 1px solid var(--border-color);
+}
+
+.info-title {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: var(--text-primary);
+  margin-bottom: var(--spacing-lg);
+  padding-bottom: var(--spacing-md);
+  border-bottom: 2px solid var(--primary-color);
+}
+
+.contacts-grid {
+  display: grid;
+  gap: var(--spacing-md);
+}
+
+.contact-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: var(--spacing-md);
+  background: var(--bg-secondary);
+  border-radius: var(--radius-lg);
+  transition: all var(--transition-base);
+}
+
+.contact-item:hover {
+  background: var(--primary-color);
+  color: white;
+  transform: translateX(4px);
+}
+
+.contact-service {
+  font-weight: 600;
+}
+
+.contact-number {
+  font-weight: 700;
+  font-size: 1.125rem;
+}
+
+.etiquette-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.etiquette-item {
+  display: flex;
+  align-items: flex-start;
+  gap: var(--spacing-md);
+  padding: var(--spacing-md);
+  border-radius: var(--radius-lg);
+  transition: all var(--transition-base);
+  margin-bottom: var(--spacing-sm);
+}
+
+.etiquette-item:hover {
+  background: var(--bg-secondary);
+  transform: translateX(4px);
+}
+
+.check-icon {
+  color: var(--primary-color);
+  font-weight: 700;
+  font-size: 1.25rem;
+  flex-shrink: 0;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .tips-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .additional-info {
+    grid-template-columns: 1fr;
+  }
+}
