@@ -8,6 +8,7 @@ import Amenities from "./Amenities";
 import FAQAccordion from "./FAQAccordion";
 import Reviews from "./Reviews";
 import Button from "../common/Button";
+import ChatBot from "../common/ChatBot";
 import { nathulaShareingTourData } from "../../data/nathulaToursData";
 
 const NathulaTouren: React.FC = () => {
@@ -87,6 +88,9 @@ const NathulaTouren: React.FC = () => {
           </p>
         </div>
       </footer>
+
+      {/* ChatBot */}
+      <ChatBot />
     </div>
   );
 };
