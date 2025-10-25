@@ -16,7 +16,7 @@ const Testimonials = () => {
         <div className="section-header">
           <span className="section-badge">💬 Traveler Stories</span>
           <h2 className="section-title">
-            What <span className="highlight">Our Travelers Say</span>
+            What <span className="" style={{ marginLeft: '10px' }}>Our Travelers Say</span>
           </h2>
           <p className="section-subtitle">
             Real experiences from travelers who discovered the magic of Sikkim

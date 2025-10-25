@@ -15,7 +15,7 @@ export const destinations: Destination[] = [
     name: "Gangtok",
     description:
       "The vibrant capital city nestled in the Eastern Himalayas with modern amenities and traditional charm",
-    image: "/placeholder.svg?height=400&width=600",
+    image: "https://images.pexels.com/photos/14916663/pexels-photo-14916663.jpeg",
     duration: "2-3 days",
     difficulty: "Easy",
     suitableFor: "All Ages",
@@ -27,7 +27,7 @@ export const destinations: Destination[] = [
     name: "Nathula Pass",
     description:
       "Historic mountain pass on the Indo-China border offering breathtaking high-altitude views",
-    image: "/placeholder.svg?height=400&width=600",
+    image: "https://media.istockphoto.com/id/2154423340/photo/india-gangtok-india-china-border-december-2023-tourist-at-view-of-nathula-pass-entrance-gate.jpg?s=2048x2048&w=is&k=20&c=99ygf0K20JLqZ_cyyRDaMz_KduibMxgTmL8ml6K55fM=",
     duration: "1 day",
     difficulty: "Moderate",
     suitableFor: "All Ages",
@@ -39,7 +39,7 @@ export const destinations: Destination[] = [
     name: "Yuksom",
     description:
       "The first capital of Sikkim and gateway to Kanchenjunga, perfect for trekking adventures",
-    image: "/placeholder.svg?height=400&width=600",
+    image: "https://i0.wp.com/stampedmoments.com/wp-content/uploads/2024/06/landscape-yuksom.jpg?fit=800%2C600&ssl=1",
     duration: "2-4 days",
     difficulty: "Challenging",
     suitableFor: "All Ages",
@@ -55,7 +55,7 @@ export const destinations: Destination[] = [
     name: "Pelling",
     description:
       "Scenic hill station with panoramic views of Kanchenjunga and ancient monasteries",
-    image: "/placeholder.svg?height=400&width=600",
+    image: "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-674x446/0b/22/85/cd.jpg",
     duration: "2-3 days",
     difficulty: "Easy",
     suitableFor: "All Ages",
@@ -67,7 +67,7 @@ export const destinations: Destination[] = [
     name: "Lachung",
     description:
       "Picturesque mountain village gateway to Yumthang Valley and Zero Point",
-    image: "/placeholder.svg?height=400&width=600",
+    image: "https://sikkimtourism.org/wp-content/uploads/2022/04/Lachung-e1653463465649.jpg",
     duration: "2-3 days",
     difficulty: "Moderate",
     suitableFor: "All Ages",
@@ -79,7 +79,7 @@ export const destinations: Destination[] = [
     name: "Namchi",
     description:
       "Cultural hub featuring the world's largest statue of Guru Padmasambhava",
-    image: "/placeholder.svg?height=400&width=600",
+    image: "https://www.naturetravelagency.com/uploads/1714050753char%20dham%20namchi%20south%20sikkim.jpg",
     duration: "1-2 days",
     difficulty: "Easy",
     suitableFor: "All Ages",
@@ -94,7 +94,7 @@ export const activities: Activity[] = [
     name: "Trekking & Hiking",
     description:
       "Explore pristine trails through rhododendron forests and alpine meadows",
-    image: "/placeholder.svg?height=300&width=400",
+    image: "https://media1.thrillophilia.com/filestore/8c4endyet4gv16wx0d1otkevk90l_pexels-saikat-ghosh-914128.jpg?w=400&dpr=2",
     difficulty: "All Levels",
     actionLabel: "Book Experience",
   },
@@ -102,7 +102,7 @@ export const activities: Activity[] = [
     id: "photography",
     name: "Photography Tours",
     description: "Capture stunning landscapes, wildlife, and cultural heritage",
-    image: "/placeholder.svg?height=300&width=400",
+    image: "https://i.pinimg.com/736x/3a/7d/4f/3a7d4fd91a21ee91d3d24ee3db248ef0.jpg",
     difficulty: "Beginner",
     actionLabel: "Book Experience",
   },
@@ -110,7 +110,7 @@ export const activities: Activity[] = [
     id: "rafting",
     name: "River Rafting",
     description: "Navigate thrilling rapids on Teesta and Rangit rivers",
-    image: "/placeholder.svg?height=300&width=400",
+    image: "https://media2.thrillophilia.com/images/photos/000/119/629/original/1509609792_IMG_5502.JPG?w=753&h=450&dpr=1.5",
     difficulty: "Intermediate",
     actionLabel: "Book Experience",
   },
@@ -119,7 +119,7 @@ export const activities: Activity[] = [
     name: "Wildlife Safari",
     description:
       "Spot red pandas, snow leopards, and exotic birds in national parks",
-    image: "/placeholder.svg?height=300&width=400",
+    image: "https://wanderon-images.gumlet.io/blogs/new/2024/08/yak-safari-in-sikkim.jpg",
     difficulty: "Easy",
     actionLabel: "Book Experience",
   },
@@ -127,7 +127,7 @@ export const activities: Activity[] = [
     id: "cultural",
     name: "Cultural Tours",
     description: "Visit ancient monasteries and experience local traditions",
-    image: "/placeholder.svg?height=300&width=400",
+    image: "https://www.esikkimtourism.in/wp-content/uploads/2019/04/serdupcholingmonaster.jpg",
     difficulty: "Easy",
     actionLabel: "Book Experience",
   },
@@ -135,7 +135,7 @@ export const activities: Activity[] = [
     id: "wellness",
     name: "Wellness Retreats",
     description: "Rejuvenate with yoga, meditation, and natural hot springs",
-    image: "/placeholder.svg?height=300&width=400",
+    image: "https://bookretreats.com/cdn-cgi/image/width=1200,quality=65,f=auto,sharpen=1,fit=cover,gravity=auto/assets/photo/retreat/0m/57k/57276/p_2219002/1000_1758521933.jpg",
     difficulty: "All Levels",
     actionLabel: "Book Experience",
   },
@@ -148,7 +148,7 @@ export const accommodations: Accommodation[] = [
     location: "Gangtok",
     description:
       "Experience luxury with panoramic Himalayan views and traditional Sikkimese hospitality",
-    image: "/placeholder.svg?height=300&width=500",
+    image: "https://cdn.tajhotels.com/images/ocl5w36p/prod5/6ac788861251a2f3c32377cec37c8be8bad31c3c-3840x1860.jpg",
     type: "Luxury Resort",
     rating: 4.8,
     pricePerNight: 8500,
@@ -160,7 +160,7 @@ export const accommodations: Accommodation[] = [
     location: "Pelling",
     description:
       "Stay with local families and experience authentic Sikkimese culture and cuisine",
-    image: "/placeholder.svg?height=300&width=500",
+    image: "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0e/86/58/d5/hotel-mount-siniolchu.jpg?w=900&h=-1&s=1",
     type: "Homestay",
     rating: 4.6,
     pricePerNight: 2500,
@@ -172,7 +172,7 @@ export const accommodations: Accommodation[] = [
     location: "Lachung",
     description:
       "Perfect base for high-altitude adventures with cozy mountain lodge atmosphere",
-    image: "/placeholder.svg?height=300&width=500",
+    image: "https://adventurebuddy.com/wp-content/uploads/2025/03/cropped-image0-scaled-1.jpeg",
     type: "Adventure Lodge",
     rating: 4.7,
     pricePerNight: 4200,
@@ -184,7 +184,7 @@ export const accommodations: Accommodation[] = [
     location: "Yuksom",
     description:
       "Sustainable luxury in pristine natural surroundings with minimal environmental impact",
-    image: "/placeholder.svg?height=300&width=500",
+    image: "https://q-xx.bstatic.com/xdata/images/hotel/max500/400727402.jpg?k=37f6760f428f8fd796b410406a784c8574a1d158d3a14323152cb5daec0c1f56&o=",
     type: "Eco Resort",
     rating: 4.5,
     pricePerNight: 3800,
@@ -196,7 +196,7 @@ export const accommodations: Accommodation[] = [
     location: "Gangtok",
     description:
       "Clean, safe, and affordable accommodation perfect for budget travelers and backpackers",
-    image: "/placeholder.svg?height=300&width=500",
+    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRsWWrjWYllR9LK0th8-GE8pqhAdSrm3zo7hQ&s",
     type: "Hostel",
     rating: 4.2,
     pricePerNight: 800,
@@ -208,7 +208,7 @@ export const accommodations: Accommodation[] = [
     location: "Namchi",
     description:
       "Stay in a restored palace with royal treatment and immersive cultural experiences",
-    image: "/placeholder.svg?height=300&width=500",
+    image: "https://www.theleela.com/prod/content/assets/aio-banner/dekstop/The-Leela-Sikkim.jpg?VersionId=DE80m_g1AumzhaAkxoWw.sb.zkH.bRmX",
     type: "Heritage Hotel",
     rating: 4.4,
     pricePerNight: 6500,
@@ -227,7 +227,7 @@ export const cultureItems: CultureItem[] = [
     title: "Buddhist Monasteries",
     description:
       "Ancient monasteries perched on hilltops, offering spiritual serenity and architectural marvels with centuries of history",
-    image: "/placeholder.svg?height=300&width=400",
+    image: "https://seawatersports.com/images/places/ranka-monastery.png",
     icon: "🛕",
   },
   {
@@ -235,7 +235,7 @@ export const cultureItems: CultureItem[] = [
     title: "Traditional Festivals",
     description:
       "Vibrant celebrations like Losar and Saga Dawa that showcase rich Tibetan and Nepali heritage with colorful costumes",
-    image: "/placeholder.svg?height=300&width=400",
+    image: "https://clubmahindra.gumlet.io/blog/images/Losar-Festival-in-Sikkim-resized.jpg?w=376&dpr=2.6",
     icon: "🎭",
   },
   {
@@ -243,7 +243,7 @@ export const cultureItems: CultureItem[] = [
     title: "Local Cuisine",
     description:
       "Authentic flavors of momos, thukpa, and gundruk that reflect the region's diverse cultural influences and mountain ingredients",
-    image: "/placeholder.svg?height=300&width=400",
+    image: "https://www.honeymoonbug.com/blog/wp-content/uploads/2022/10/Dhindo-sikkim.jpg",
     icon: "🍜",
   },
   {
@@ -251,7 +251,7 @@ export const cultureItems: CultureItem[] = [
     title: "Handicrafts & Arts",
     description:
       "Exquisite handwoven textiles, traditional carpets, and intricate wood carvings that preserve ancient artistic traditions",
-    image: "/placeholder.svg?height=300&width=400",
+    image: "https://shilpkarindicraft.wordpress.com/wp-content/uploads/2018/09/8a775-traditional2bthangka2bpaintings2bof2bsikkim.jpg",
     icon: "🎨",
   },
   {
@@ -259,7 +259,7 @@ export const cultureItems: CultureItem[] = [
     title: "Sacred Rituals",
     description:
       "Spiritual ceremonies and prayer rituals that connect the community with nature and Buddhist teachings",
-    image: "/placeholder.svg?height=300&width=400",
+    image: "https://travelogyindia.b-cdn.net/storage/app/upload/saga-dawa-festival.jpg",
     icon: "🙏",
   },
   {
@@ -267,7 +267,7 @@ export const cultureItems: CultureItem[] = [
     title: "Folk Music & Dance",
     description:
       "Traditional performances featuring ancient instruments and storytelling through graceful movements and melodies",
-    image: "/placeholder.svg?height=300&width=400",
+    image: "https://tripexplore.travel.blog/wp-content/uploads/2021/01/yak-chaam-dance.jpg?w=720",
     icon: "🎵",
   },
 ];
@@ -277,7 +277,7 @@ export const testimonials: Testimonial[] = [
     id: "sarah",
     name: "Sarah Johnson",
     location: "New York, USA",
-    image: "/placeholder.svg?height=80&width=80",
+    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRk-j215pLptnk06KZPYdP3i0cPKWj-6YY_Sg&s",
     rating: 5,
     experience: "Goecha La Trek",
     comment:
@@ -287,7 +287,7 @@ export const testimonials: Testimonial[] = [
     id: "raj",
     name: "Raj Patel",
     location: "Mumbai, India",
-    image: "/placeholder.svg?height=80&width=80",
+    image: "https://images.pexels.com/photos/3971608/pexels-photo-3971608.jpeg?cs=srgb&dl=pexels-yogendras31-3971608.jpg&fm=jpg",
     rating: 5,
     experience: "Photography Tour",
     comment:
@@ -297,7 +297,7 @@ export const testimonials: Testimonial[] = [
     id: "emma",
     name: "Emma Thompson",
     location: "London, UK",
-    image: "/placeholder.svg?height=80&width=80",
+    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSaGSsOXWjzmGozErolrI0tniXk_J3tfbEMEA&s",
     rating: 5,
     experience: "Cultural Homestay",
     comment:
@@ -307,7 +307,7 @@ export const testimonials: Testimonial[] = [
     id: "david",
     name: "David Chen",
     location: "Singapore",
-    image: "/placeholder.svg?height=80&width=80",
+    image: "https://img.freepik.com/free-photo/self-portrait-happy-hiker-baseball-cap-taking-selfie-while-standing-against-waterfall-green-exotic-woods-young-tourist-trekking-rainforest-his-holidays_273609-1607.jpg?semt=ais_hybrid&w=740&q=80",
     rating: 5,
     experience: "Adventure Package",
     comment:
@@ -317,7 +317,7 @@ export const testimonials: Testimonial[] = [
     id: "maria",
     name: "Maria Rodriguez",
     location: "Barcelona, Spain",
-    image: "/placeholder.svg?height=80&width=80",
+    image: "https://media.istockphoto.com/id/1311452628/photo/i-want-to-share-my-journey-with-everyone.jpg?s=612x612&w=0&k=20&c=iLe-8n2dTo5f_Xi1VEowCSapBd9Cv44fKtus-GX7l8E=",
     rating: 5,
     experience: "Wildlife Safari",
     comment:
@@ -327,7 +327,7 @@ export const testimonials: Testimonial[] = [
     id: "james",
     name: "James Wilson",
     location: "Sydney, Australia",
-    image: "/placeholder.svg?height=80&width=80",
+    image: "https://www.shutterstock.com/image-photo/hiking-man-portrait-happy-selfie-260nw-2587225863.jpg",
     rating: 5,
     experience: "Scenic Tour",
     comment:
@@ -399,7 +399,7 @@ export const galleryImages: GalleryImage[] = [
     id: "kanchenjunga-sunrise",
     title: "Kanchenjunga at Sunrise",
     location: "Pelling",
-    image: "/placeholder.svg?height=400&width=600",
+    image: "https://img.myloview.com/stickers/kangchenjunga-close-up-view-from-pelling-in-sikkim-india-700-215215459.jpg",
     category: "Landscapes",
     likes: 342,
     views: 1250,
@@ -408,7 +408,7 @@ export const galleryImages: GalleryImage[] = [
     id: "prayer-ceremony",
     title: "Prayer Ceremony",
     location: "Rumtek Monastery",
-    image: "/placeholder.svg?height=400&width=600",
+    image: "https://images.newsarenaindia.com//sikkim-monksjpg_1738572999795.jpg",
     category: "Culture",
     likes: 287,
     views: 980,
@@ -417,7 +417,7 @@ export const galleryImages: GalleryImage[] = [
     id: "red-panda",
     title: "Red Panda",
     location: "Khangchendzonga National Park",
-    image: "/placeholder.svg?height=400&width=600",
+    image: "https://res.cloudinary.com/roundglass/image/upload/v1629364404/rg/collective/media/x80t61pvukxo46eeokhr.jpg",
     category: "Wildlife",
     likes: 456,
     views: 1890,
@@ -426,7 +426,7 @@ export const galleryImages: GalleryImage[] = [
     id: "river-rafting",
     title: "River Rafting",
     location: "Teesta River",
-    image: "/placeholder.svg?height=400&width=600",
+    image: "https://media1.thrillophilia.com/filestore/phhsf70sao0nwrldpeyxx1yq2mgm_1583483790_1513345568_brahmaputra-river-rafting.jpg.jpg",
     category: "Adventure",
     likes: 198,
     views: 756,
@@ -435,7 +435,7 @@ export const galleryImages: GalleryImage[] = [
     id: "yumthang-valley",
     title: "Valley of Flowers",
     location: "Yumthang",
-    image: "/placeholder.svg?height=400&width=600",
+    image: "https://hblimg.mmtcdn.com/content/hubble/img/yumthanvalley/mmt/activities/m_Yumthang%20Valley_Sikkim_1_l_408_640.jpg",
     category: "Landscapes",
     likes: 523,
     views: 2134,
@@ -444,7 +444,7 @@ export const galleryImages: GalleryImage[] = [
     id: "traditional-dance",
     title: "Traditional Dance",
     location: "Gangtok",
-    image: "/placeholder.svg?height=400&width=600",
+    image: "https://www.windhorsetours.com/wp-content/uploads/2014/11/Sikkim-festival-Mask-sance.jpg",
     category: "Culture",
     likes: 312,
     views: 1045,
@@ -453,7 +453,7 @@ export const galleryImages: GalleryImage[] = [
     id: "snow-leopard",
     title: "Snow Leopard",
     location: "High Altitude",
-    image: "/placeholder.svg?height=400&width=600",
+    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSbvAqaJaM0au5TtzizdxFbt9FvJ0KRAecwqA&s",
     category: "Wildlife",
     likes: 678,
     views: 2890,
@@ -462,7 +462,7 @@ export const galleryImages: GalleryImage[] = [
     id: "mountain-trekking",
     title: "Mountain Trekking",
     location: "Goecha La",
-    image: "/placeholder.svg?height=400&width=600",
+    image: "https://trekthehimalayas.com/images/HomePageImages/Desktop/7d187666-dfc4-4063-8549-c9c8081b392a_Goechala-Day-6.webp",
     category: "Adventure",
     likes: 234,
     views: 890,
@@ -471,7 +471,7 @@ export const galleryImages: GalleryImage[] = [
     id: "tsomgo-lake",
     title: "Sacred Lake",
     location: "Tsomgo Lake",
-    image: "/placeholder.svg?height=400&width=600",
+    image: "https://travelsetu.com/apps/uploads/new_destinations_photos/destination/2023/12/12/f09dff586c1bc6922554274fb5a451db_1000x1000.jpg",
     category: "Landscapes",
     likes: 445,
     views: 1678,

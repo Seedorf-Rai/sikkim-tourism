@@ -6,9 +6,9 @@ const Activities = () => {
     <section className="activities-section" id="activities">
       <div className="container">
         <div className="section-header">
-          <span className="section-badge">🎯 Adventures Await</span>
+          <span className=""  style={{ color: '#7451A8' }}>🎯 Adventures Await</span>
           <h2 className="section-title">
-            Thrilling<span className="highlight">Activities</span>
+            Thrilling<span className=""  style={{ color: '#7451A8' , marginLeft: '10px' }}>Activities</span>
           </h2>
           <p className="section-subtitle">
             From adrenaline-pumping adventures to peaceful cultural experiences,

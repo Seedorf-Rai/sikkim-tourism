@@ -24,9 +24,9 @@ const Gallery = () => {
     <section className="gallery-section" id="gallery">
       <div className="container">
         <div className="section-header">
-          <span className="section-badge">📸 Visual Journey</span>
+          <span className=""  style={{ color: '#7451A8' }}>📸 Visual Journey</span>
           <h2 className="section-title">
-            Sikkim Through<span className="highlight">Our Lens</span>
+            Sikkim Through<span className=""  style={{ color: '#7451A8', marginLeft: '10px' }}>Our Lens</span>
           </h2>
           <p className="section-subtitle">
             Immerse yourself in the breathtaking beauty of Sikkim through our

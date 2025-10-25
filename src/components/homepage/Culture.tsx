@@ -6,9 +6,9 @@ const Culture = () => {
     <section className="culture-section" id="culture">
       <div className="container">
         <div className="section-header">
-          <span className="section-badge">🎭 Rich Heritage</span>
+          <span className="">🎭 Rich Heritage</span>
           <h2 className="section-title">
-            Cultural<span className="highlight">Treasures of Sikkim</span>
+            Cultural<span className="" style={{ marginLeft: '10px' }}>Treasures of Sikkim</span>
           </h2>
           <p className="section-subtitle">
             Experience the tranquility of nature and the warmth of our culture

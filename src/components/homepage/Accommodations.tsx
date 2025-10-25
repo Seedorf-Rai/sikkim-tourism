@@ -6,9 +6,9 @@ const Accommodations = () => {
     <section className="accommodations-section" id="accommodations">
       <div className="container">
         <div className="section-header">
-          <span className="section-badge">🏨 Stay in Comfort</span>
+          <span className="">🏨 Stay in Comfort</span>
           <h2 className="section-title">
-            Perfect<span className="highlight">Accommodations</span>
+            Perfect<span className="" style={{ marginLeft: '16px' }}>Accommodations</span>
           </h2>
           <p className="section-subtitle">
             From luxury resorts to cozy homestays, find the perfect place to

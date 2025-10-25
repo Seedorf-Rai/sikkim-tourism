@@ -6,9 +6,9 @@ const Destinations = () => {
     <section className="destinations-section" id="destinations">
       <div className="container">
         <div className="section-header">
-          <span className="section-badge">🏔️ TOP DESTINATIONS</span>
+          <span className="">🏔️ TOP DESTINATIONS</span>
           <h2 className="section-title">
-            Majestic <span className="highlight">Mountains</span>
+            Majestic <span className="" style={{ color: '#7451A8' }}>Mountains</span>
             <br />
             Await Your Discovery
           </h2>
