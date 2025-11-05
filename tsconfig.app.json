@@ -24,5 +24,5 @@
     "noFallthroughCasesInSwitch": true,
     "noUncheckedSideEffectImports": true
   },
-  "include": ["src"]
+  "include": ["src", "components/bike-banner.tsx", "components/booking-modal.tsx", "components/cab-banner.tsx", "components/vehicle-card.tsx"]
 }

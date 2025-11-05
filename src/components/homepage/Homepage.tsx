@@ -8,6 +8,8 @@ import TravelTips from "./TravelTips";
 import Gallery from "./Gallery";
 import Footer from "./Footer";
 import "./Homepage.css";
+import CabBanner from "../../../components/cab-banner";
+import BikeBanner from "../../../components/bike-banner";
 
 const Homepage = () => {
   return (
@@ -16,7 +18,9 @@ const Homepage = () => {
       <Destinations />
       <Activities />
       <Accommodations />
+      <CabBanner></CabBanner>
       <Culture />
+      <BikeBanner></BikeBanner>
       <Testimonials />
       <TravelTips />
       <Gallery />
