@@ -51,6 +51,8 @@ const NathulaTouren: React.FC = () => {
 
         <Itinerary itinerary={tour.itinerary} />
 
+        {/* like day1 day 2 */}
+
         <Amenities amenities={tour.amenities} />
 
         <FAQAccordion faqs={tour.faqs} />
